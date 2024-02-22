@@ -1,7 +1,7 @@
 package quiz.application;
 
 import java.awt.Color;
-import java.awt.Image;
+// import java.awt.Image;
 import javax.swing.ImageIcon;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
@@ -9,6 +9,7 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import javax.swing.JButton;
+
 import javax.swing.JTextField;
 
 public class Login extends JFrame implements ActionListener {

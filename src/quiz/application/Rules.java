@@ -1,7 +1,7 @@
 package quiz.application;
 
 import java.awt.Color;
-import java.awt.Frame;
+// import java.awt.Frame;
 import javax.swing.JFrame;
 import java.awt.*;
 import java.awt.event.ActionEvent;
@@ -13,6 +13,8 @@ public class Rules extends JFrame implements ActionListener {
 
     String name;
     JButton Start, Back;
+
+    String username;
 
     Rules(String name) {
 
@@ -32,13 +34,14 @@ public class Rules extends JFrame implements ActionListener {
 
         rules.setText(
                 "<html>"
-                + "1. The game is divided into rounds, each consisting of a set of questions. " + "<br><br>"
-                + "2. Players or teams participate in each round. " + "<br><br>"
-                + "3. Questions can be multiple-choice, true/false, or open-ended. " + "<br><br>"
-                + "4. Correct answers earn points, and incorrect answers may result in a deduction or no points. " + "<br><br>"
-                + "5. You can have different point values for each question, depending on difficulty. " + "<br><br>"
-                + "<html>"
-        );
+                        + "1. The game is divided into rounds, each consisting of a set of questions. " + "<br><br>"
+                        + "2. Players or teams participate in each round. " + "<br><br>"
+                        + "3. Questions can be multiple-choice, true/false, or open-ended. " + "<br><br>"
+                        + "4. Correct answers earn points, and incorrect answers may result in a deduction or no points. "
+                        + "<br><br>"
+                        + "5. You can have different point values for each question, depending on difficulty. "
+                        + "<br><br>"
+                        + "<html>");
 
         add(rules);
 
@@ -66,6 +69,8 @@ public class Rules extends JFrame implements ActionListener {
     @Override
     public void actionPerformed(ActionEvent e) {
         if (e.getSource() == Start) {
+            setVisible(false);
+            new Quiz(username);
 
         } else {
             setVisible(false);
