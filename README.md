@@ -1,4 +1,4 @@
-Project: Quiz Application using Java Swing**
+Project: Quiz Application using Java Swing
 
 *Description:*
 
