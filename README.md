@@ -2,11 +2,11 @@ Project: Quiz Application using Java Swing
 
 *Description:*
 
-- Implemented the user interface using Java Swing components, providing an intuitive and visually appealing design.
-- Designed allowing for easy management and customization of quiz content.
-- Developed a scoring system with real-time feedback, enhancing the user experience and encouraging participation.
-- Incorporated timer functionality to add a time pressure element to each question, promoting quick thinking and decision-making.
-- Implemented lifelines, including "50:50" and "Ask the Audience," to add strategic elements to the game.
+- Developed a feature-rich quiz application using Java Swing and AWT for the graphical user interface.
+- Implemented a user-friendly design for intuitive navigation and enhanced user experience.
+- Utilized AWT components for basic user interface elements and Java Swing for advanced UI components.
+- Applied event handling to capture user input and trigger appropriate actions for seamless quiz flow.
+- Integrated Java Collections for efficient data management, including questions, options, and correct answers.
 
 *Technologies Used:*
 Java, Java Swing
